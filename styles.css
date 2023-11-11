@@ -6,7 +6,7 @@ body{
 }
 
 .Upper{
-  background-image: url("../Images/hands.jpg") ;
+  background-image: url("/hands.jpg") ;
   background-origin: content-box;
   background-repeat: no-repeat;
   background-size: cover;
