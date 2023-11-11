@@ -1,0 +1,237 @@
+body{
+  text-align: center;
+  margin: 0;
+  background-color: rgba(250, 190, 105, 0.1);
+  padding: 0;
+}
+
+.Upper{
+  background-image: url("../Images/hands.jpg") ;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-blend-mode: darken;
+
+
+}
+
+.title{
+  animation: fadeIn 3s;
+
+}
+
+
+#Hello{
+   color: rgba(255, 250, 250, 0.2);
+  font-size: 3.000rem;
+  margin: 0;
+  padding: 7%;
+  margin-bottom: 40px;
+  position: relative;
+  bottom: 40px;
+  font-family: 'Sacramento', cursive;
+}
+
+
+hr.top{
+  border: dotted rgba(255, 250, 250, 0) 6px;
+  width: 2%;
+  border-top: 40px;
+  margin: 14% auto;
+  position: relative;
+  bottom: 50px;
+
+}
+
+
+
+
+#welcome{
+  font-family: ;
+  font-size: 2.123rem;
+  padding-bottom: 0px;
+  margin: 70px;
+  color: rgba(255, 250, 250, 0.4);
+}
+
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+
+  }
+
+  .logo{
+    height: 10%;
+    width: 10%;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    margin: 0;
+  }
+
+
+
+  #keys{
+    font-size: 5.700rem;
+    color: rgba(255, 250, 250, 0.8);
+    margin-bottom: 20px;
+    padding:0px;
+
+
+  }
+
+.Intro{
+  background-image: url("../Images/piano.jpg");
+  background-size: cover;
+  color: rgba(255, 250, 250, 0.8);
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+
+}
+
+h5{
+  margin-bottom:10px;
+  position: relative;
+  bottom: 100px;
+}
+
+
+#Who{
+  margin: 3%;
+  padding: 15%;
+  text-align: center;
+  color: rgba(255, 250, 250, 0.7);
+
+}
+
+.Brief{
+  padding-top: auto;
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+}
+
+#abj{
+  height: 30%;
+  width: 30%;
+  position: relative;
+  right: auto;
+  padding-left: 10px;
+
+}
+
+hr.services{
+  border: dotted rgba(221, 191, 125, 0.4) 6px;
+  width: 15%;
+  border-top: 40px;
+  margin: 5% auto;
+  position: relative;
+  bottom: 20px;
+}
+
+.Offering{
+  background-image: url("../Images/Crowd.jpg");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+
+}
+
+#offer{
+  padding: 15%;
+  color: rgba(255, 250, 250, 0.8);
+
+}
+
+p.desc{
+  padding-top: auto;
+  line-height: 2;
+  width: 50%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+}
+
+.Behind{
+  background-image: url("../Images/stage.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.8);
+  background-blend-mode: multiply;
+}
+
+
+.prof{
+  height: 10%;
+  width: 13%;
+  position: relative;
+  padding-left: 0%;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.Kemikeyz{
+  padding: 15%;
+  color: rgba(255, 250, 250, 0.8);
+}
+
+
+hr.prof{
+  border: dotted rgba(221, 191, 125, 0.4) 6px;
+  width: 15%;
+  border-top: 50px;
+  margin: 5% auto;
+  position: relative;
+  bottom: 20px;
+}
+
+
+.bbn{
+  background-color: rgba(0, 21, 1, 0.5);
+  border-color: inherit;
+  border-radius: 5px;
+  font-size: 2.345rem;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+.bbn:hover{
+  background-color: rgba(108, 10, 90, 0.4);
+}
+
+
+.descr{
+  padding-top: auto;
+  line-height: 2;
+  width: 60%;
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+
+}
+
+
+.bottom-container{
+  background-color: rgb(56,97,129);
+  padding: 50px 0 20px;
+}
+
+.foot-link{
+  color: rgba(255, 250, 250, 0.8);
+  text-decoration: none;
+}
+
+.foot-link:hover{
+  color: grey;
+}
+
+.home{
+  padding: 10px;
+}
